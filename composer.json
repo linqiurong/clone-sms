@@ -9,7 +9,8 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "clonelin\\sms\\": "src/"
+            "clonelin\\sms\\": "src/",
+            "clonelin\\sms\\library": "library/"
         },
         "files": []
     }
