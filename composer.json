@@ -10,7 +10,7 @@
     "autoload": {
         "psr-4": {
             "clonelin\\sms\\": "src/",
-            "clonelin\\sms\\library": "library/"
+            "clonelin\\sms\\library\\": "library/"
         },
         "files": []
     }
