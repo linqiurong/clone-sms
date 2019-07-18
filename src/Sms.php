@@ -7,7 +7,7 @@ class Sms {
 
     // 发送短信
     public static function send($sendType,$params = []){
-        if(!in_array(SendTypeEnum::ALI_SMS,SendTypeEnum::LE_SMS)){
+        if(!in_array($sendType,[SendTypeEnum::ALI_SMS,SendTypeEnum::LE_SMS])){
             throw new \Exception("Send Type Invalidate");
             return false;
         }
